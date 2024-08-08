@@ -1,0 +1,62 @@
+=====================================
+DEF CON 32: BADGE GAME INFO & CREDITS
+=====================================
+
+Check out defcon.org/badge/32 or badge.spux.art for details, bug fixes and extras! 
+
+*** 
+KNOWN BUGS - 7/16/24
+- Sending an item over IR works, but doesn't show up in receiver's inventory. 
+- Music & Sounds not playing in game. 
+***
+
+=====================================
+
+Single board computers and microcontrollers like Raspberry Pi and Arduino captured my interest (along with so many others) during the rise of hackerspaces. As an artist involved in that scene at the time, I was excited for how quick and accessible they made projects that were typically the domain of more serious hardware engineers, and how these tools helped shift the scene itself towards becoming more open. 
+
+For DEF CON 32, I wanted to  design a badge that was as open, accessible and customizable as possible, while telling the story of why we hold this ethos dear. The theme this year is Engage, the challenge to get involved and take back the web & our spaces from  enshittification. For those of us with fewer resources, it's harder to be present and stay engaged, and while there aren't always creative solutions, with strong communities we can carry each other.
+The game on this badge is a dedication to the player, the attendee, the community member. To do what you can to get involved and make an impact, but to take care of yourself too. 
+
+The badge itself is just a little cat, but it does some pretty cool tricks thanks to the efforts of the people on this team:
+
+- Built with the newly released Raspberry Pi RP2350: 
+as in, released this weekend, on these boards, for 
+DEF CON attendees to play with before anyone else!
+- Circuit design by RPi's engineering partners
+- Firmware and uGB, the tiny bare-metal emulator for that                            
+     classic handheld gaming system, by DmitryGR
+- Game development by Bonnie Finley & Nutmeg
+- Badge specific hardware plugins & development support by 
+     GB Studio creator Chris Matlby
+- ABS injection molded case to protect your badge from 
+     weekend shenanigans, 3D modeled by Bonnie Finley
+- Screen Flip / Orientation Sensor for wearable gameplay
+- Customizable RGB LEDs 
+- SAO support
+- USB-C & rechargeable li-ion battery
+- SD Card (also holds some goodies for your PC)
+- IR communication 
+- Real Time Clock
+
+Badge Concept, Art & Design by Mar Williams
+Thanks to Will Tuttle for concept & narrative collab, 
+Jason Scott for game dialogue contributions
+ICSN as our production partner and Dual Core, MC Frontalot and Legion303 for music and sounds
+We couldn't get the sounds to work in the game in time, but we've included the files here for your enjoyment! 
+
+Special thanks to Joe Grand for production testing, hardware support, and last minute adventures. 
+
+The badge can be customized in a any number of ways - from SAOs, to loading up your favorite classic ROMs, to creating your own with the open source drag-and-drop game creator GB Studio, to creating your own firmware using the RP2350 SDK, to really any way you’d use a microcontroller!
+
+Happy Hacking! I can't wait to see what you create! 
+
+- Mar -
+
+======================================================
+
+A note from Raspberry Pi
+
+Raspberry Pi RP2350 is our new microcontroller. Like its predecessor RP2040, it’s open, high-performance, and affordable. We’ve doubled the RAM, made it dual-architecture (dual Arm M33 or dual RISC-V), and added new security features. All the SDK software and on-chip boot ROM are open source; and the chip, including its security features, is fully
+documented and available without NDAs or other corporate bullshit. We think it’ll be great for hardware security research, education and hacking.
+Raspberry Pi is proud to be part of the badge and DEF CON 32. We look forward to meeting you at the Embedded Systems Village. See rptl.io/rp2350 for more details.
+
